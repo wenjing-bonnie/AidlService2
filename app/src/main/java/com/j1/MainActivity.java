@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         unbindService(connection);
-        connection = null;
+        //connection = null;
         isBinderService = false;
     }
 
